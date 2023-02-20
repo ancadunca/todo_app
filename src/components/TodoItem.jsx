@@ -1,4 +1,4 @@
-function TodoItem({ name, completed, onComplete }) {
+function TodoItem({ name, completed, onComplete, index }) {
   return (
     <div>
       <h4>
